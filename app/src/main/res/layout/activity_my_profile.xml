@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/bg_white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_primary"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/etProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Display Name"
+        android:background="@drawable/bg_input_field"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnUpdateName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Display Name"
+        android:textStyle="bold"
+        android:backgroundTint="@color/blue_primary"
+        android:textColor="@color/bg_white"
+        android:layout_marginBottom="28dp"/>
+
+    <TextView
+        android:id="@+id/tvProfileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tvProfileLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvProfileLng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/text_secondary"/>
+
+</LinearLayout>
